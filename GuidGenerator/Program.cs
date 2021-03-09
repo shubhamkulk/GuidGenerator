@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config.config", Watch = true)]
 
 namespace GuidGenerator
 {

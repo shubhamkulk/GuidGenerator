@@ -35,3 +35,64 @@ body {
         display: none;
     }
 }
+
+.button {
+    background-color: darkgrey;
+    color: black;
+    margin: 3px;
+    font-weight: bold;
+}
+
+    .button:hover {
+        background-color: #545454;
+    }
+
+.button2 {
+    width: 192px;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.textclass {
+    font-family: Courier New,Courier,monospace;
+    font-size: Larger;
+    font-weight: bold;
+    height: 300px;
+    width: 60%;
+    color: black;
+    background-color: darkgrey;
+    border: 7px solid black;
+    padding: 1rem 1rem;
+    min-height: 3em;
+}
+
+.guidinpclass {
+    font-weight: bold;
+    color: black;
+    width: 72px;
+    background-color: darkgrey;
+}
+
+.checkbox {
+    padding: 20em;
+    display: inline-block;
+}
+
+.formclass {
+    font-size: medium;
+}
+
+label.checkbox-label input[type=checkbox] {
+    position: relative;
+    vertical-align: middle;
+    bottom: 1px;
+}
+
+.tab {
+    padding-left: 4px;
+}
